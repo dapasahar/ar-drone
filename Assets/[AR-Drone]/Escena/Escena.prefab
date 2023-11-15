@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7541021604762342481}
   - component: {fileID: 6597246611804526179}
   - component: {fileID: 2921869541908417730}
+  - component: {fileID: 5203360335319362762}
   m_Layer: 8
   m_Name: Suelo
   m_TagString: Untagged
@@ -106,6 +107,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &5203360335319362762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9095400607003422090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: -1372625422
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.016666668
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 8fa44a148a9881043b05edce4569c02d, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &9151520043623232520
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,6 +180,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 864792527675562733}
     m_Modifications:
+    - target: {fileID: 236221658682300092, guid: 7165c0d95117b094bb57e72d77943e38, type: 3}
+      propertyPath: objetivo
+      value: 
+      objectReference: {fileID: 3489026619114349950}
+    - target: {fileID: 5163261318565380573, guid: 7165c0d95117b094bb57e72d77943e38, type: 3}
+      propertyPath: m_Height
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163261318565380573, guid: 7165c0d95117b094bb57e72d77943e38, type: 3}
+      propertyPath: m_Radius
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163261318565380573, guid: 7165c0d95117b094bb57e72d77943e38, type: 3}
+      propertyPath: m_AgentTypeID
+      value: -1372625422
+      objectReference: {fileID: 0}
     - target: {fileID: 8079377580229076610, guid: 7165c0d95117b094bb57e72d77943e38, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
