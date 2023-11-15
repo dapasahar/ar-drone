@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7541021604762342481}
   - component: {fileID: 6597246611804526179}
   - component: {fileID: 2921869541908417730}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Suelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,7 +190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8455852540246757761, guid: 7165c0d95117b094bb57e72d77943e38, type: 3}
       propertyPath: m_Name
-      value: Drone
+      value: Dron
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -252,7 +252,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7497481949972602930, guid: eb54e3b19a0b580418462d046f83b9d4, type: 3}
       propertyPath: m_Name
-      value: Marca Objetivo
+      value: Marca Destino
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

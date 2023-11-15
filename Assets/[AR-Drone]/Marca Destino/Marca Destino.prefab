@@ -93,8 +93,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 519484137790675923}
+  - component: {fileID: 5050702039665357949}
   m_Layer: 0
-  m_Name: Marca Objetivo
+  m_Name: Marca Destino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116,3 +117,18 @@ Transform:
   - {fileID: 4892767955270483506}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5050702039665357949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7497481949972602930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c4e547dba58b38409cdef531cb48793, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  suelo:
+    serializedVersion: 2
+    m_Bits: 256
