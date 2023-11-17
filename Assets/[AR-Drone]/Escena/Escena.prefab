@@ -184,18 +184,6 @@ PrefabInstance:
       propertyPath: objetivo
       value: 
       objectReference: {fileID: 3489026619114349950}
-    - target: {fileID: 5163261318565380573, guid: 7165c0d95117b094bb57e72d77943e38, type: 3}
-      propertyPath: m_Height
-      value: 0.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 5163261318565380573, guid: 7165c0d95117b094bb57e72d77943e38, type: 3}
-      propertyPath: m_Radius
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 5163261318565380573, guid: 7165c0d95117b094bb57e72d77943e38, type: 3}
-      propertyPath: m_AgentTypeID
-      value: -1372625422
-      objectReference: {fileID: 0}
     - target: {fileID: 8079377580229076610, guid: 7165c0d95117b094bb57e72d77943e38, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
